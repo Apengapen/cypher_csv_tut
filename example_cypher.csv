@@ -1,2 +1,2 @@
 question,cypher
-Who is the oldest patient and how old are they?,'MATCH (p:Patient RETURN p.name AS oldest_patient,duration.between(date(p.dob), date()).years AS age ORDER BY age DESC LIMIT 1'
+Who is the oldest patient and how old are they?,"MATCH (p:Patient RETURN p.name AS oldest_patient,duration.between(date(p.dob), date()).years AS age ORDER BY age DESC LIMIT 1"
